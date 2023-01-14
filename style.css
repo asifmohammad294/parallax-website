@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    line-height: 1.5;
+}
+h2{
+    margin-bottom: 20px;
+}
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.sec1{
+    background-image: url(/images/img1.jpg);
+    height: 100vh;
+}
+.sec2{
+    background-image: url(/images/img2.jpg);
+    height: 80vh;
+}
+.sec3{
+    background-image: url(/images/img3.jpg);
+    height: 80vh;
+}
+.txt1{
+    background-color: #000000;
+    width: 34%;
+    text-align: center;
+    left: 33%;
+    position: absolute;
+    top: 50%;
+}
+span{
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+.sec1-1{
+    height: 10rem;
+    text-align: center;
+    padding: 2rem;
+}
